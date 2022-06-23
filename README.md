@@ -16,7 +16,7 @@ npm install
 
 After installing the dependencies and must have gone through the smart contract, you need some specific things before you move forward.
 
--   You need to get your own RPC provider you can get it after you must have signed up with [Alchemy](https://www.alchemy.com/) or [Infura](https://infura.io/), for this project I used Alchemy i'll advice you do also. Create a new Application or project on the website and copy the RPC url of that project.
+-   You need to get your own Node provider you can get it after you must have signed up with [Alchemy](https://www.alchemy.com/) or [Infura](https://infura.io/), for this project I used Alchemy i'll advice you do also. Create a new Application or project on the website and copy the RPC url of that project.
 -   Create a .env file in your root directory that is where we will be storing sensitive information like your private key for your wallet, your RPC link and also your PolygonScan API key.
 -   The third thing you are going to need is your Polygon API key, you can get that when you signUp to [PolygonScan](https://polygonscan.com/). Then go to your profile and Navigate your way to the API-KEYs section, add a new API key and copy the key.
 -   Export your private key from your metamask wallet or which ever EVM compatible wallet you are using.
@@ -59,3 +59,10 @@ Replace smart-contract-address with your own smartcontract address
 use mumbai as the network if you deployed on the polygon test network and use Polygon as the network if you deployed on the mainnet.
 
 You can go ahead and read or Write to the smart contract you can do so on Polygonscan or mumbai-polygonscan whichever network you designed thats what
+
+## Tech Stack
+
+-   [Ethers.js](https://docs.ethers.io/v5/) (BlockChain Interaction).
+-   JavaScript (Script Writing).
+-   Node Js (For installing dependencies needed for the application).
+-   [Alchemy](https://www.alchemy.com/) (Node Provider)

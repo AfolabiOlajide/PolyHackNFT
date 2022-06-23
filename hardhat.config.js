@@ -25,6 +25,10 @@ module.exports = {
 			url: process.env.POLYGON_TESTNET_RPC,
 			accounts: [process.env.PRIVATE_KEY],
 		},
+		polygon: {
+			url: process.env.POLYGON_MAINNET_RPC,
+			accounts: [process.env.PRIVATE_KEY],
+		},
 	},
 	etherscan: {
 		apiKey: process.env.POLYGON_SCAN_API_KEY,
